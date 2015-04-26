@@ -32,6 +32,12 @@ ul {
 }
 .navbar-default {
 	padding: 30px 0 15px 0;
+    float: left;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    background: #fff;
+    border-bottom: 1px solid #eee;
 }
 .navbar-default .navbar-brand {
 	color: #555;
@@ -255,7 +261,7 @@ ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li
 .caption {
 	width: 60%;
 	position: absolute;
-	top: 35%;
+	top: 55%;
 	left: 20%;
 	text-align: center;
 }
@@ -305,7 +311,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 .callbacks_nav {
 	position: absolute;
 	-webkit-tap-highlight-color: rgba(0,0,0,0);
-	top: 50%;
+	top: 450px;
 	left: 0;
 	opacity: 0.5;
 	z-index: 3;
