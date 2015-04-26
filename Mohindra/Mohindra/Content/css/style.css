@@ -232,6 +232,7 @@ ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li
 	outline: 0px;
 }
 .rslides {
+    height:700px;
 	position: relative;
 	list-style: none;
 	overflow: hidden;
