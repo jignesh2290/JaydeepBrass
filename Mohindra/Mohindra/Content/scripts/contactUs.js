@@ -1,10 +1,10 @@
 ﻿/// <reference path="js/jquery-1.11.1.min.js" />
 $(document).ready(function () {
-    var amsterdam = new google.maps.LatLng(50.0000, -98.0000);
+    var amsterdam = new google.maps.LatLng(31.1895810, 75.990783);
     function initialize() {
         var mapProp = {
             center: amsterdam,
-            zoom: 2,
+            zoom: 8,
             mapTypeId: google.maps.MapTypeId.ROADMAP
         };
 
@@ -12,7 +12,7 @@ $(document).ready(function () {
 
         var myCity = new google.maps.Circle({
             center: amsterdam,
-            radius: 2000000,
+            radius: 20000,
             strokeColor: "red",
             strokeOpacity: 0.4,
             strokeWeight: 1,
@@ -25,14 +25,14 @@ $(document).ready(function () {
 
     google.maps.event.addDomListener(window, 'load', initialize);
 
-    $("#form1").validate({});
-    $(".contactNo").rules('add', { 
-        required: false,
-        number: true
-    });
-    $(".email").rules('add', { 
-        required: true,
-        email: true
-    });
+    //$("#form1").validate({});
+    //$(".contactNo").rules('add', { 
+    //    required: false,
+    //    number: true
+    //});
+    //$(".email").rules('add', { 
+    //    required: true,
+    //    email: true
+    //});
 
 });

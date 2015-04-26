@@ -14,8 +14,12 @@
     <!-- Custom CSS -->
     <link href="/Content/css/style.css" rel="stylesheet" type="text/css" media="all" />
     <link href="/Content/css/mohindra.css" rel="stylesheet" type="text/css" media="all" />
+
     <script src="/Content/js/jquery.min.js"></script>
-    <script src="/Content/js/mohindra.js"></script>
+    <script src="/Content/js/jquery.validate.min.js"></script>
+    <script src="/Content/js/jquery.validate.unobtrusive.min.js"></script>
+
+    <script src="/Content/scripts/mohindra.js"></script>
 </head>
 <body>
     <nav class="navbar navbar-default">
@@ -34,7 +38,7 @@
                     <li class="active scroll-link"><a href="#home" class="">Home</a></li>
                     <li class="scroll-link"><a href="#about" class="">About Us</a></li>
                     <li class="scroll-link"><a href="#services">Services</a></li>
-                    <li class="scroll-link"><a href="#contacts">Contact Us</a></li>
+                    <li class="scroll-link"><a href="#contactus">Contact Us</a></li>
                 </ul>
             </div>
         </div>
@@ -49,7 +53,7 @@
 <div id="home">
     <!-- Slider -->
     <div class="header-banner">
-        <script src="/Content/js/responsiveslides.min.js"></script>
+        <script src="/Content/scripts/responsiveslides.min.js"></script>
         <script>
             $(function () {
                 $("#slider").responsiveSlides({
@@ -66,7 +70,7 @@
                 <div class="callbacks_container">
                     <ul class="rslides" id="slider">
                         <li>
-                            <img src="/Content/images/mohindra/bnr1.jpg" alt="">
+                            <img src="/Content/images/bnr1.jpg" alt="">
                             <div class="caption">
                                 <h1>School & College Books<span>.</span></h1>
                                 <p>Vast collection of school and college books to choose from</p>
@@ -74,7 +78,7 @@
                             </div>
                         </li>
                         <li>
-                            <img src="/Content/images/mohindra/bnr2.jpg" alt="">
+                            <img src="/Content/images/bnr2.jpg" alt="">
                             <div class="caption">
                                 <h1>Office Stationery<span>.</span></h1>
                                 <p>Highest quality products available coupled with a dedicated and tailored service offering.</p>
@@ -82,7 +86,7 @@
                             </div>
                         </li>
                         <li>
-                            <img src="/Content/images/mohindra/bnr3.jpg" alt="">
+                            <img src="/Content/images/bnr3.jpg" alt="">
                             <div class="caption">
                                 <h1>Sports & Gift Items<span>.</span></h1>
                                 <p>Lovely Collection of Sports And Gift Items, Greetings For All Occasions <br />Society Ledgers & Acessories</p>
@@ -90,7 +94,7 @@
                             </div>
                         </li>
                         <li>
-                            <img src="/Content/images/mohindra/bnr4.jpg" alt="">
+                            <img src="/Content/images/bnr4.jpg" alt="">
                             <div class="caption">
                                 <h1>Religious Books<span>.</span></h1>
                                 <p>Largest Variety Of Religious Books & Literature In All Languages. Photostat & Lamination also available</p>
@@ -112,14 +116,14 @@
     </div>
     <div id="welcome">
         <div class="container">
-            <div class="col-md-6"> <img class="img-responsive" src="/Content/images/mohindra/about1.png"> </div>
+            <div class="col-md-6"> <img class="img-responsive" src="/Content/images/about1.png"> </div>
             <div class="col-md-6">
                 <h3>Who we are</h3>
                 <p>We are a Stationery Outlet and Book Depot on the main road of Banga city. We are committed to meeting customer requirements with innovative quality products to suit contemporary literary and office needs.</p>
 
                 <h3>Our History</h3>
                 <p>Mohindra Book Depot was established in 1949 by Sr. Mohinder Singh on the main road of Banga city. We were the first stationery in the area.</p>
-                <p>With your continuous support and trust, we grew and kept expanding our services.</p>
+                <p>With your continuous support and trust, we have grown and expanded our services.</p>
 
                 <p>Now we deal both in wholesale and retail services.</p>
                 <a href="#services" class="btn">More</a>
@@ -135,82 +139,180 @@
     <div id="section_header">
         <h2><span>What</span> we do</h2>
     </div>
-    <div id="main-services">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 centered">
-                    <i class="fa fa-gears fa-3x"></i>
-                    <h3>Aenean nonummy</h3>
-                    <p>Erat imperdiet dissentias ea usu, alia aliquid corrumpit ea qui. Eu vim oratio conclusionemque, vel at errem nominavi delicatissimi.</p>
-                    <a href="services.html" class="btn">More</a>
-                </div>
-                <div class="col-lg-4 centered">
-                    <i class="fa fa-briefcase fa-3x"></i>
-                    <h3>Praesent vestibulum</h3>
-                    <p>Erat imperdiet dissentias ea usu, alia aliquid corrumpit ea qui. Eu vim oratio conclusionemque, vel at errem nominavi delicatissimi.</p>
-                    <a href="services.html" class="btn">More</a>
-                </div>
-                <div class="col-lg-4 centered">
-                    <i class="fa fa-line-chart fa-3x"></i>
-                    <h3>Erat imperdiet</h3>
-                    <p>Erat imperdiet dissentias ea usu, alia aliquid corrumpit ea qui. Eu vim oratio conclusionemque, vel at errem nominavi delicatissimi.</p>
-                    <a href="services.html" class="btn">More</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div id="section_header">
-        <div class="container">
-            <h2><span>Our</span> Services</h2>
-        </div>
-    </div>
+   
     <div id="services">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 service">
-                    <h3>Aenean commodo</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu pretium.</p>
-                    <img src="images/service1.jpg" class="img-responsive" alt=" ">
+                    <h3>School & College Books</h3>
+                    <p>When you come to Mohindra book depot, you can save money by buying cheap new and used textbooks and by renting textbooks for college.</p>
+                    <img src="/Content/images/service1.jpg" class="img-responsive" alt=" ">
                 </div>
                 <div class="col-lg-4 service">
-                    <h3>Ligula eget dolor</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus. Donec quam felis, ultricies nec.</p>
-                    <img src="images/service2.jpg" class="img-responsive" alt=" ">
+                    <h3>Office Stationery</h3>
+                    <p>We have all types of office stationery and products available at affordable prices</p>
+                    <img src="/Content/images/service2.jpg" class="img-responsive" alt=" ">
                 </div>
                 <div class="col-lg-4 service">
-                    <h3>Aenean massa</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus. Donec quam felis, ultricies nec.</p>
-                    <img src="images/service3.jpg" class="img-responsive" alt=" ">
+                    <h3>Sports & Gift Items</h3>
+                    <p>We offer all types of sports kits and gears for the spirited enthusiast in you. Looking for a gift? Head over to Mohindra's, we have gifts and greetings for any occasion!</p>
+                    <img src="/Content/images/service3.png" class="img-responsive" alt=" ">
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-4 service">
-                    <h3>Pellentesque eu pretium</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus. Donec quam felis, ultricies nec.</p>
-                    <img src="images/service4.jpg" class="img-responsive" alt=" ">
+                    <h3>Religious Books</h3>
+                    <p>We have the biggest stock of religious & literature books. They are available in many languages such as Punjabi, Hindi, Urdu And English.</p>
+                    <img src="/Content/images/service4.png" class="img-responsive" alt=" ">
                 </div>
                 <div class="col-lg-4 service">
-                    <h3>Donec quam felis</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu pretium.</p>
-                    <img src="images/service5.jpg" class="img-responsive" alt=" ">
+                    <h3>Photostat & Lamination</h3>
+                    <p> Black and white copying<br />
+                        Colour copying,
+                        High volume copying <br />
+                        Plan copying,
+                        Digital archiving</p>
+                    <img src="/Content/images/service5.png" class="img-responsive" alt=" ">
                 </div>
                 <div class="col-lg-4 service">
-                    <h3>Parturient montes</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus. Donec quam felis, ultricies nec.</p>
-                    <img src="images/service6.jpg" class="img-responsive" alt=" ">
+                    <h3>Society Ledgers & Acessories</h3>
+                    <p>We have all types of accessories required for day to day living and maintenance</p>
+                    <img src="/Content/images/service6.jpg" class="img-responsive" alt=" ">
                 </div>
             </div>
         </div>
     </div>
+    
+    @model Mohindra.Models.ContactViewModel
+
+    @*Scripts required*@
+    <script src="~/Content/scripts/contactUs.js" type="text/javascript"></script>
+    <script src="http://maps.googleapis.com/maps/api/js" type="text/javascript"></script>
+    <script type="text/javascript">
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+    m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-62139338-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+
+    <div id="contactus">
+        <div id="section_header">
+            <h2><span>Contact</span> Us</h2>
+        </div>
+
+        <div class="row">
+                <section id="loginForm">
+                    @using (Html.BeginForm("Contact", "Home", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+                    {
+                        <div class="row" style="padding: 20px; margin-top:10px">
+                            <div class="col-lg-12">
+                                <p class="text-center" style="font-size: 18px;">
+                                    Interested in seeing what we can do for you? Fill up the below form and we will
+                                    contact you soon.<br /><br /><br />
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row" style="padding: 20px; margin-top: -40px;">
+                            <div class="col-lg-6 col-md-6 col-xs-12 col-sm-8">
+                                <div class="text-center">
+                                    <h3>
+                                        Get in Touch
+                                    </h3>
+                                </div>
+                                <div class="form-group">
+                                    @Html.LabelFor(m => m.Name, new { @class = "col-md-2 control-label" })
+                                    <div class="col-md-10">
+                                        @Html.TextBoxFor(m => m.Name, new { @class = "form-control name", @placeholder = "Enter Your Name" })
+                                        @Html.ValidationMessageFor(m => m.Name, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                                <br />
+                                <div class="form-group">
+                                    @Html.LabelFor(m => m.Email, new { @class = "col-md-2 control-label" })
+                                    <div class="col-md-10">
+                                        @Html.TextBoxFor(m => m.Email, new { @class = "form-control email", @placeholder = "Enter Your Email Id" })
+                                        @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                                <br />
+                                <div class="form-group">
+                                    @Html.LabelFor(m => m.ContactNo, new { @class = "col-md-2 control-label" })
+                                    <div class="col-md-10">
+                                        @Html.TextBoxFor(m => m.ContactNo, new { @class = "form-control contactNo", @placeholder = "Enter Your Contact No" })
+                                        @Html.ValidationMessageFor(m => m.ContactNo, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                                <br />
+                                <div class="form-group">
+                                    @Html.LabelFor(m => m.Message, new { @class = "col-md-2 control-label" })
+                                    <div class="col-md-10">
+                                        @Html.TextBoxFor(m => m.Message, new { @class = "form-control contactNo", @placeholder = "Enter Your Message (20-200 characters)", @minlength = "20", @maxlength = "200" })
+                                        @Html.ValidationMessageFor(m => m.Message, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                <div class="form-group text-center">
+                                    <div class="col-md-offset-2 col-md-10">
+                                        <input type="submit" value="Submit" class="btn btn-default" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-xs-12 col-sm-4">
+                                <div class="text-center">
+                                    <h3>
+                                        Our Service Area
+                                    </h3>
+                                </div>
+                                <div id="googleMap" style="height: 350px; ">
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </section>
+            </div>
+    </div>
+
+
+    <div class="row" style="padding: 20px; margin-top: -38px">
+        <div class="col-lg-12 col-xs-12">
+            <div style="padding: 10px;">
+                <p class="text-center">
+                    You can also email us your query on any one of the following email
+                </p>
+                <ul class="hidden-xs text-center">
+                    <p>
+                        <span class="glyphicon glyphicon-envelope"></span>&nbsp;&nbsp; rajisab@viraam.com
+                        &nbsp;&nbsp;&nbsp;&nbsp;<span class="glyphicon glyphicon-envelope"></span>&nbsp;&nbsp;gkr@viraam.com
+                        &nbsp;&nbsp;&nbsp;&nbsp;<span class="glyphicon glyphicon-envelope"></span>&nbsp;&nbsp;veejay@viraam.com
+                    </p>
+
+                </ul>
+                <ul style="list-style:none;" class="hidden-lg hidden-md hidden-sm text-left">
+                    <li><span class="glyphicon glyphicon-envelope"></span>&nbsp;&nbsp; rajisab@viraam.com</li>
+                    <li><span class="glyphicon glyphicon-envelope"></span>&nbsp;&nbsp;gkr@viraam.com</li>
+                    <li><span class="glyphicon glyphicon-envelope"></span>&nbsp;&nbsp;veejay@viraam.com</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    @Html.Raw(TempData["msg"])
+
     <!-- Footer -->
     <div id="footerwrap">
         <div class="container">
             <div class="row">
-                <div class="col-md-8"> <span class="copyright">Copyright &copy; 2015 Your Website Name. Design by <a href="http://www.templategarden.com" rel="nofollow">TemplateGarden</a></span> </div>
+                <div class="col-md-8"> <span class="copyright">Copyright &copy; 2015 Mohindra Book Depot. Design by <a href="http://www.templategarden.com" rel="nofollow">TemplateGarden</a></span> </div>
                 <div class="col-md-4">
                     <ul class="list-inline social-buttons">
                         <li><a href="#"><i class="fa fa-twitter"></i></a> </li>
-                        <li><a href="#"><i class="fa fa-facebook"></i></a> </li>
+                        <li><a href="https://www.facebook.com/mbdbanga"><i class="fa fa-facebook"></i></a> </li>
                         <li><a href="#"><i class="fa fa-google-plus"></i></a> </li>
                         <li><a href="#"><i class="fa fa-linkedin"></i></a> </li>
                     </ul>

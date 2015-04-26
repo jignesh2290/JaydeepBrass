@@ -6,19 +6,18 @@ namespace Mohindra.Models
     public class ContactViewModel
     {
         [Required]
-        [Display(Name = "Name:")]
+        [Display(Name = "Name")]
         public string Name { get; set; }
 
         [Required]
         [EmailAddress]
-        [Display(Name = "Email:")]
+        [Display(Name = "Email")]
         public string Email { get; set; }
 
-        [Required]
-        [Display(Name = "Contact No:")]
+        [Display(Name = "Contact")]
         public string ContactNo { get; set; }
 
-        [Display(Name = "Message:")]
+        [Display(Name = "Message")]
         public string Message { get; set; }
     }  
 }
