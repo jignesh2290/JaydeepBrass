@@ -191,6 +191,7 @@
     <Content Include="Content\images\bnr2.jpg" />
     <Content Include="Content\images\bnr3.jpg" />
     <Content Include="Content\images\bnr4.jpg" />
+    <Content Include="Content\images\mbd-x-150.png" />
     <Content Include="Content\images\service1.jpg" />
     <Content Include="Content\images\service2.jpg" />
     <Content Include="Content\images\service3.png" />
