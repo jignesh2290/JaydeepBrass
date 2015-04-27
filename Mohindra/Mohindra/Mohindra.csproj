@@ -187,6 +187,7 @@
     <Content Include="Content\css\mohindra.css" />
     <Content Include="Content\css\style.css" />
     <Content Include="Content\images\about1.png" />
+    <Content Include="Content\images\arrows.png" />
     <Content Include="Content\images\bnr1.jpg" />
     <Content Include="Content\images\bnr2.jpg" />
     <Content Include="Content\images\bnr3.jpg" />
