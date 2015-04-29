@@ -22,7 +22,7 @@ h1, h2, h3, h4, h5, h6 {
 h2 {
 	margin: 20px 0;
 }
-p {
+.col-md-6 {
 	margin: 0;
 	color: #666;
 }
@@ -83,17 +83,16 @@ ul {
 }
 #section_header {
 	text-align: center;
-	background-color: #f6f6f6;
+	background-color: rgb(231,76,60);
 	padding: 30px 0;
 	margin-bottom: 30px;
 	margin-top: 20px;
 }
 #section_header h2 span {
-	border-bottom: 2px solid #dc4a49;
 }
 #section_header h2 {
-	color: #aaa;
-	text-shadow: 1px 1px #fff;
+	color: rgb(238,238,238);
+	/* text-shadow: 1px 1px #fff; */
 }
 #welcome p {
 	color: #777;
@@ -386,14 +385,31 @@ address {
 }
 
 @media (max-width:480px) {
+    .rslides {
+        height: 300px;
+        position: relative;
+        list-style: none;
+        overflow: hidden;
+        width: 100%;
+        padding: 0;
+    }
+
+        .rslides img {
+            margin-top: 45%;
+            display: block;
+            height: auto;
+            float: left;
+            width: 100%;
+            border: 0;
+        }
+
     .caption {
-	width: 70%;
-	top: 50%;
-	left: 13%;
-}
+        width: 70%;
+        top: 50%;
+        left: 13%;
+    }
        .slider .btn {
 	font-size: 14px;
-	margin: 10px 0;
 	padding: 10px 20px;
 	background-color: #dd4a49;
 	color: #fff;
@@ -402,7 +418,7 @@ address {
 }
 
     .caption h1 {
-	font-size: 2em;
+	font-size: 1em;
 }
 
 .callbacks_nav {
@@ -447,41 +463,8 @@ ul.callbacks_tabs.callbacks1_tabs {
 	bottom: 10px;
 	left: 4px;
 }
-    .rslides {
-    height:70%;
-	position: relative;
-	list-style: none;
-	overflow: hidden;
-	width: 100%;
-	padding: 0;
-    }
-
-    .rslides img {
-        margin-top:45%;
-	    display: block;
-	    height: auto;
-	    float: left;
-	    width: 100%;
-	    border: 0;
-    }
-
-    .slider .btn {
-	font-size: 14px;
-	margin: 10px 0;
-	padding: 10px 20px;
-	background-color: #dd4a49;
-	color: #fff;
-	border: 0;
-	text-transform: uppercase;
-}
-
-    .caption {
-	width: 56%;
-	top: 37%;
-	left: 22%;
-}
 .caption h1 {
-	font-size: 36px;
+	font-size: 26px;
 	letter-spacing: -1px;	
 }
 .form_details input[type="text"], .form_details textarea {
@@ -500,7 +483,7 @@ address {
 }
 }
 
-@media (max-width:1024px) {
+/*@media (max-width:1024px) {
       .rslides {
     height:550px;
 	position: relative;
@@ -523,7 +506,7 @@ address {
  top: 33%;
  left: 19%;
 }
-}
+}*/
 
 @media (max-width:768px) {
 
