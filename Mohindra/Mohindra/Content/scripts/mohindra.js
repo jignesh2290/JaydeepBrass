@@ -13,8 +13,9 @@ $(document).ready(function () {
             $(this).parent('li').addClass('active');
 
             //Hide the menu items on anchor click
-            $('.navbar-collapse').collapse('hide');
-
+            if (!$(this).hasClass("btn")) {
+                $('.navbar-collapse').collapse('hide');
+            }
             //$('.navbar-collapse').slideUp();
 
             var scrollPadding = 0;
