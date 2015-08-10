@@ -1,0 +1,327 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JaydeepBrass Book Depot</title>
+
+    <!-- Bootstrap -->
+    <link href="/Content/css/bootstrap.css" rel='stylesheet' type='text/css' />
+    <!-- Font Awesome  -->
+    <link href="/Content/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Web Font  -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css'>
+    <!-- Custom CSS -->
+    <link href="/Content/css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="/Content/css/JaydeepBrass.css" rel="stylesheet" type="text/css" media="all" />
+
+    <script src="/Content/js/jquery.min.js"></script>
+    <script src="/Content/js/jquery.validate.min.js"></script>
+    <script src="/Content/js/jquery.validate.unobtrusive.min.js"></script>
+
+    <script src="/Content/scripts/JaydeepBrass.js"></script>
+    <script src="/Content/scripts/jquery.easing.1.3.js"></script>
+    
+</head>
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                @Html.ActionLink("JaydeepBrass Book Depot", "Index", "Home", new { area = "" }, new { @class = "JaydeepBrassLogo"})
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right navbarTop">
+                    <li class="active scroll-link"><a href="#home" class="">Home</a></li>
+                    <li class="scroll-link"><a href="#about" class="">About Us</a></li>
+                    <li class="scroll-link"><a href="#services">Services</a></li>
+                    <li class="scroll-link"><a href="#contactus">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+   
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="/Content/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+<!-- Home Content -->
+<div id="home">
+    <!-- Slider -->
+    <div class="header-banner">
+        <script src="/Content/scripts/responsiveslides.min.js"></script>
+        <script>
+            $(function () {
+                $("#slider").responsiveSlides({
+                    auto: true,
+                    nav: true,
+                    speed: 1000,
+                    namespace: "callbacks",
+                    pager: true,
+                });
+            });
+        </script>
+        <div class="container-fluid">
+            <div class="slider">
+                <div class="callbacks_container">
+                    <ul class="rslides" id="slider">
+                        <li>
+                            <img src="/Content/images/bnr1.jpg" alt="">
+                            <div class="caption">
+                                <h1>School & College Books<span>.</span></h1>
+                                <p>Vast collection of school and college books to choose from</p>
+                                <a href="#services" class="btn">More Info</a>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="/Content/images/bnr2.jpg" alt="">
+                            <div class="caption">
+                                <h1>Office Stationery<span>.</span></h1>
+                                <p>Highest quality products available coupled with a dedicated and tailored service offering.</p>
+                                <a href="#services" class="btn">More Info</a>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="/Content/images/bnr3.jpg" alt="">
+                            <div class="caption">
+                                <h1>Sports & Gift Items<span>.</span></h1>
+                                <p>Lovely Collection of Sports And Gift Items, Greetings For All Occasions <br />Society Ledgers & Acessories</p>
+                                <a href="#services" class="btn">More Info</a>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="/Content/images/bnr4.jpg" alt="">
+                            <div class="caption">
+                                <h1>Religious Books<span>.</span></h1>
+                                <p>Largest Variety Of Religious Books & Literature In All Languages. Photostat & Lamination also available</p>
+                                <a href="#services" class="btn">More Info</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="about">
+    <!-- Welcome Section -->
+    <div id="section_header">
+        <h2><span>Welcome</span> to JaydeepBrass Book Depot! At your service <span>since 1949!</span></h2>
+    </div>
+    <div id="welcome">
+        <div class="container-fluid">
+            <div class="col-md-6"> <img class="img-responsive" src="/Content/images/about1.png"> </div>
+            <div class="col-md-6">
+                <h3>Who we are</h3>
+                <p>We are a Stationery Outlet and Book Depot on the main road of Banga city. We are committed to meeting customer requirements with innovative quality products to suit contemporary literary and office needs.</p>
+
+                <h3>Our History</h3>
+                <p>JaydeepBrass Book Depot was established in 1949 by Sr. Mohinder Singh on the main road of Banga city. We were the first stationery in the area.</p>
+                <p>With your continuous support and trust, we have grown and expanded our services.</p>
+
+                <p>Now we deal both in wholesale and retail services.</p>
+                <a href="#services" class="btn">More</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div id="services">
+    <!-- What we do Section -->
+    <div id="section_header">
+        <h2><span>What</span> we do</h2>
+    </div>
+   
+    <div id="services">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-4 service">
+                    <h3>School & College Books</h3>
+                    <p>When you come to JaydeepBrass book depot, you can save money by buying cheap new and used textbooks and by renting textbooks for college.</p>
+                    <img src="/Content/images/service1.jpg" class="img-responsive" alt=" ">
+                </div>
+                <div class="col-lg-4 service">
+                    <h3>Office Stationery</h3>
+                    <p>We have all types of office stationery and products available at affordable prices</p>
+                    <img src="/Content/images/service2.jpg" class="img-responsive" alt=" ">
+                </div>
+                <div class="col-lg-4 service">
+                    <h3>Sports & Gift Items</h3>
+                    <p>We offer all types of sports kits and gears for the spirited enthusiast in you. Looking for a gift? Head over to JaydeepBrass's, we have gifts and greetings for any occasion!</p>
+                    <img src="/Content/images/service3.png" class="img-responsive" alt=" ">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 service">
+                    <h3>Religious Books</h3>
+                    <p>We have the biggest stock of religious & literature books. They are available in many languages such as Punjabi, Hindi, Urdu And English.</p>
+                    <img src="/Content/images/service4.png" class="img-responsive" alt=" ">
+                </div>
+                <div class="col-lg-4 service">
+                    <h3>Photostat & Lamination</h3>
+                    <p>
+                        Black and white copying<br />
+                        Colour copying,
+                        High volume copying <br />
+                        Plan copying,
+                        Digital archiving
+                    </p>
+                    <img src="/Content/images/service5.png" class="img-responsive" alt=" ">
+                </div>
+                <div class="col-lg-4 service">
+                    <h3>Society Ledgers & Acessories</h3>
+                    <p>We have all types of accessories required for day to day living and maintenance</p>
+                    <img src="/Content/images/service6.jpg" class="img-responsive" alt=" ">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    @model JaydeepBrass.Models.ContactViewModel
+
+    @*Scripts required*@
+    <script src="~/Content/scripts/contactUs.js" type="text/javascript"></script>
+    <script src="http://maps.googleapis.com/maps/api/js" type="text/javascript"></script>
+    <script type="text/javascript">
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+    m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-62139338-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+
+    <div id="contactus">
+        <div id="section_header">
+            <h2><span>Contact</span> Us</h2>
+        </div>
+
+        <div class="row">
+                <section id="loginForm">
+                    @using (Html.BeginForm("Contact", "Home", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+                    {
+                        <div class="row" style="padding: 20px; margin-top:10px">
+                            <div class="col-lg-12">
+                                <p class="text-center" style="font-size: 18px;">
+                                    Interested in seeing what we can do for you? Fill up the below form and we will
+                                    contact you soon.<br /><br /><br />
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row" style="padding: 20px; margin-top: -40px;">
+                            <div class="col-lg-6 col-md-6 col-xs-12 col-sm-8">
+                                <div class="text-center">
+                                    <h3>
+                                        Get in Touch
+                                    </h3>
+                                </div>
+                                <div class="form-group">
+                                    @Html.LabelFor(m => m.Name, new { @class = "col-md-2 control-label" })
+                                    <div class="col-md-10">
+                                        @Html.TextBoxFor(m => m.Name, new { @class = "form-control name", @placeholder = "Enter Your Name" })
+                                        @Html.ValidationMessageFor(m => m.Name, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                                <br />
+                                <div class="form-group">
+                                    @Html.LabelFor(m => m.Email, new { @class = "col-md-2 control-label" })
+                                    <div class="col-md-10">
+                                        @Html.TextBoxFor(m => m.Email, new { @class = "form-control email", @placeholder = "Enter Your Email Id" })
+                                        @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                                <br />
+                                <div class="form-group">
+                                    @Html.LabelFor(m => m.ContactNo, new { @class = "col-md-2 control-label" })
+                                    <div class="col-md-10">
+                                        @Html.TextBoxFor(m => m.ContactNo, new { @class = "form-control contactNo", @placeholder = "Enter Your Contact No" })
+                                        @Html.ValidationMessageFor(m => m.ContactNo, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                                <br />
+                                <div class="form-group">
+                                    @Html.LabelFor(m => m.Message, new { @class = "col-md-2 control-label" })
+                                    <div class="col-md-10">
+                                        @Html.TextBoxFor(m => m.Message, new { @class = "form-control contactNo", @placeholder = "Enter Your Message (20-200 characters)", @minlength = "20", @maxlength = "200" })
+                                        @Html.ValidationMessageFor(m => m.Message, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                <div class="form-group text-center">
+                                    <div class="col-md-offset-2 col-md-10">
+                                        <input type="submit" value="Submit" class="btn btn-default" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-xs-12 col-sm-4">
+                                <div class="text-center">
+                                    <h3>
+                                        Our Service Area
+                                    </h3>
+                                </div>
+                                <div id="googleMap" style="height: 350px; ">
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </section>
+            </div>
+    </div>
+
+
+    <div class="row" style="padding: 20px; margin-top: -38px">
+        <div class="col-lg-12 col-xs-12">
+            <div style="padding: 10px;">
+                <p class="text-center">
+                    You can also email us your query on any one of the following email
+                </p>
+                <ul class="hidden-xs text-center">
+                    <p>
+                        <span class="glyphicon glyphicon-envelope"></span>&nbsp;&nbsp; rajisab@viraam.com
+                        &nbsp;&nbsp;&nbsp;&nbsp;<span class="glyphicon glyphicon-envelope"></span>&nbsp;&nbsp;gkr@viraam.com
+                        &nbsp;&nbsp;&nbsp;&nbsp;<span class="glyphicon glyphicon-envelope"></span>&nbsp;&nbsp;veejay@viraam.com
+                    </p>
+
+                </ul>
+                <ul style="list-style:none;" class="hidden-lg hidden-md hidden-sm text-left">
+                    <li><span class="glyphicon glyphicon-envelope"></span>&nbsp;&nbsp; rajisab@viraam.com</li>
+                    <li><span class="glyphicon glyphicon-envelope"></span>&nbsp;&nbsp;gkr@viraam.com</li>
+                    <li><span class="glyphicon glyphicon-envelope"></span>&nbsp;&nbsp;veejay@viraam.com</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    @Html.Raw(TempData["msg"])
+
+    <!-- Footer -->
+    <div id="footerwrap">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-8"> <span class="copyright">Copyright &copy; 2015 JaydeepBrass Book Depot. Design by <a href="http://www.templategarden.com" rel="nofollow">TemplateGarden</a></span> </div>
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+                        <li><a href="#"><i class="fa fa-twitter"></i></a> </li>
+                        <li><a href="https://www.facebook.com/mbdbanga"><i class="fa fa-facebook"></i></a> </li>
+                        <li><a href="#"><i class="fa fa-google-plus"></i></a> </li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a> </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

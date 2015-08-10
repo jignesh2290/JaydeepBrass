@@ -1,0 +1,36 @@
+.JaydeepBrassLogo {
+    background: url(../Images/image.gif) no-repeat top left;
+    display: block;
+    width: 300px;
+    height: 90px;
+    text-indent: -9999px; /* hides the link text */
+    background: url("../images/mbd-x-150.png") no-repeat top left;
+    margin-top: -10px;
+    margin-left: -18px;
+}
+
+.navbarTop {
+    margin-top: 15px;
+}
+
+.hidden {
+    display:none;
+}
+.show {
+    display:block;
+}
+
+
+  /*background-size: 80% 80%;
+}
+localhost/media="all"
+.JaydeepBrassLogo {
+  background: url(../Images/image.gif) no-repeat top left;
+  display: block;
+  width: 300px;
+  height: 90px;
+  text-indent: -9999px;
+  background: url("../images/mbd-x-150.png") no-repeat top left;
+  margin-left: -20px;
+  margin-bottom: -15px;
+  margin-top: -10px;*/
