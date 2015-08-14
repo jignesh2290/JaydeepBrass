@@ -134,7 +134,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\css\animate.css" />
-    <Content Include="Content\css\bootstrap.css" />
     <Content Include="Content\css\bootstrap.min.css" />
     <Content Include="Content\css\custom.css" />
     <Content Include="Content\css\flexslider.css" />
@@ -144,7 +143,6 @@
     <Content Include="Content\css\hover.css" />
     <Content Include="Content\css\jquery.bxslider.css" />
     <Content Include="Content\css\jquery.fancybox.css" />
-    <Content Include="Content\css\mohindra.css" />
     <Content Include="Content\css\onepage-scroll.css" />
     <Content Include="Content\css\owl.carousel.css" />
     <Content Include="Content\css\owl.theme.css" />
@@ -153,12 +151,15 @@
     <Content Include="Content\css\responsive.css" />
     <Content Include="Content\css\style.css" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="Content\images\about1.png" />
     <Content Include="Content\images\about\browse.png" />
     <Content Include="Content\images\about\graphics.png" />
     <Content Include="Content\images\about\web1.png" />
-    <Content Include="Content\images\arrows.png" />
     <Content Include="Content\images\back-top.png" />
+    <Content Include="Content\images\banner\b1.jpg" />
+    <Content Include="Content\images\banner\b11.jpg" />
+    <Content Include="Content\images\banner\b2.jpg" />
+    <Content Include="Content\images\banner\b22.jpg" />
+    <Content Include="Content\images\banner\b3.jpg" />
     <Content Include="Content\images\banner\banner.jpg" />
     <Content Include="Content\images\banner\l5.png" />
     <Content Include="Content\images\banner\overaly.png" />
@@ -182,10 +183,6 @@
     <Content Include="Content\images\blog\pic7.jpg" />
     <Content Include="Content\images\blog\pic8.jpg" />
     <Content Include="Content\images\blog\pic9.jpg" />
-    <Content Include="Content\images\bnr1.jpg" />
-    <Content Include="Content\images\bnr2.jpg" />
-    <Content Include="Content\images\bnr3.jpg" />
-    <Content Include="Content\images\bnr4.jpg" />
     <Content Include="Content\images\clients\client1.png" />
     <Content Include="Content\images\clients\client2.png" />
     <Content Include="Content\images\clients\client3.png" />
@@ -206,7 +203,6 @@
     <Content Include="Content\images\logo2.png" />
     <Content Include="Content\images\logo3.png" />
     <Content Include="Content\images\map1.png" />
-    <Content Include="Content\images\mbd-x-150.png" />
     <Content Include="Content\images\portfolio\p1.jpg" />
     <Content Include="Content\images\portfolio\p2.jpg" />
     <Content Include="Content\images\portfolio\p3.jpg" />
@@ -252,12 +248,6 @@
     <Content Include="Content\images\prettyPhoto\light_square\default_thumbnail.gif" />
     <Content Include="Content\images\prettyPhoto\light_square\loader.gif" />
     <Content Include="Content\images\prettyPhoto\light_square\sprite.png" />
-    <Content Include="Content\images\service1.jpg" />
-    <Content Include="Content\images\service2.jpg" />
-    <Content Include="Content\images\service3.png" />
-    <Content Include="Content\images\service4.png" />
-    <Content Include="Content\images\service5.png" />
-    <Content Include="Content\images\service6.jpg" />
     <Content Include="Content\images\slider\b6.jpg" />
     <Content Include="Content\images\slider\s1.jpg" />
     <Content Include="Content\images\slider\s2.jpg" />
@@ -321,11 +311,6 @@
     <Content Include="Content\fonts\fontawesome-webfont.ttf" />
     <Content Include="Content\fonts\fontawesome-webfont.woff" />
     <Content Include="Content\fonts\FontAwesome.otf" />
-    <Content Include="fonts\fontawesome-webfont.eot" />
-    <Content Include="fonts\fontawesome-webfont.svg" />
-    <Content Include="fonts\fontawesome-webfont.ttf" />
-    <Content Include="fonts\fontawesome-webfont.woff" />
-    <Content Include="fonts\FontAwesome.otf" />
     <Content Include="Content\videos\gdrive.ogg" />
     <Content Include="Content\videos\gdrive.webm" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.eot" />
@@ -366,10 +351,6 @@
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
   </ItemGroup>
