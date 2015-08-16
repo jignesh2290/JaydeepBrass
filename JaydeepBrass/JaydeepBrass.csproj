@@ -157,6 +157,7 @@
     <Content Include="Content\images\back-top.png" />
     <Content Include="Content\images\banner\b1.jpg" />
     <Content Include="Content\images\banner\b11.jpg" />
+    <Content Include="Content\images\banner\b1_1.jpg" />
     <Content Include="Content\images\banner\b2.jpg" />
     <Content Include="Content\images\banner\b22.jpg" />
     <Content Include="Content\images\banner\b3.jpg" />
@@ -200,6 +201,7 @@
     <Content Include="Content\images\fancybox_sprite.png" />
     <Content Include="Content\images\glyphicons-halflings-white.png" />
     <Content Include="Content\images\glyphicons-halflings.png" />
+    <Content Include="Content\images\logo1.png" />
     <Content Include="Content\images\logo2.png" />
     <Content Include="Content\images\logo3.png" />
     <Content Include="Content\images\map1.png" />
