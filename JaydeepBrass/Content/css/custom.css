@@ -600,7 +600,7 @@ padding: 10px 15px;
 =========================================*/
 #portfolio{
 }
-.portfolio-wrap{
+/*.portfolio-wrap{
     position: relative;
     display: block;
     width: 100%;
@@ -609,7 +609,7 @@ padding: 10px 15px;
     transition: height 450ms ease-out 0s;
     -webkit-transition: height 450ms ease-out 0s;
     -o-transition: height 450ms ease-out 0s;
-}
+}*/
 .single-portfolio{
     display: block;
     overflow: hidden;

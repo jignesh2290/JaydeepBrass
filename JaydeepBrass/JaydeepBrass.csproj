@@ -144,6 +144,7 @@
     <Content Include="Content\css\hover.css" />
     <Content Include="Content\css\jquery.bxslider.css" />
     <Content Include="Content\css\jquery.fancybox.css" />
+    <Content Include="Content\css\ninja-slider.css" />
     <Content Include="Content\css\onepage-scroll.css" />
     <Content Include="Content\css\owl.carousel.css" />
     <Content Include="Content\css\owl.theme.css" />
@@ -152,11 +153,13 @@
     <Content Include="Content\css\responsive.css" />
     <Content Include="Content\css\style.css" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Content\images\a.jpg" />
     <Content Include="Content\images\about\clients_bckgrnd.jpg" />
     <Content Include="Content\images\about\CoreValues.jpg" />
     <Content Include="Content\images\about\quality.jpg" />
     <Content Include="Content\images\about\specialization.jpg" />
     <Content Include="Content\images\about\Vision.jpg" />
+    <Content Include="Content\images\b.jpg" />
     <Content Include="Content\images\back-top.png" />
     <Content Include="Content\images\banner\b1.jpg" />
     <Content Include="Content\images\banner\b11.jpg" />
@@ -187,6 +190,7 @@
     <Content Include="Content\images\blog\pic7.jpg" />
     <Content Include="Content\images\blog\pic8.jpg" />
     <Content Include="Content\images\blog\pic9.jpg" />
+    <Content Include="Content\images\c.jpg" />
     <Content Include="Content\images\clients\client1.png" />
     <Content Include="Content\images\clients\client2.png" />
     <Content Include="Content\images\clients\client3.png" />
@@ -204,9 +208,12 @@
     <Content Include="Content\images\fancybox_sprite.png" />
     <Content Include="Content\images\glyphicons-halflings-white.png" />
     <Content Include="Content\images\glyphicons-halflings.png" />
+    <Content Include="Content\images\Jayanti.jpg" />
+    <Content Include="Content\images\logo.jpg" />
     <Content Include="Content\images\logo1.png" />
     <Content Include="Content\images\logo2.png" />
     <Content Include="Content\images\logo3.png" />
+    <Content Include="Content\images\logo_new.jpg" />
     <Content Include="Content\images\map1.png" />
     <Content Include="Content\images\portfolio\p1.jpg" />
     <Content Include="Content\images\portfolio\p2.jpg" />
@@ -215,6 +222,7 @@
     <Content Include="Content\images\portfolio\p5.jpg" />
     <Content Include="Content\images\portfolio\p6.jpg" />
     <Content Include="Content\images\portfolio\p7.jpg" />
+    <Content Include="Content\images\Pravin.jpg" />
     <Content Include="Content\images\prettyPhoto\dark_rounded\btnNext.png" />
     <Content Include="Content\images\prettyPhoto\dark_rounded\btnPrevious.png" />
     <Content Include="Content\images\prettyPhoto\dark_rounded\contentPattern.png" />
@@ -295,6 +303,7 @@
     <Content Include="Content\js\jquery.singlePageNav.js" />
     <Content Include="Content\js\jquery.validate.min.js" />
     <Content Include="Content\js\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Content\js\ninja-slider.js" />
     <Content Include="Content\js\owl.carousel.min.js" />
     <Content Include="Content\js\smooth-scroll.js" />
     <Content Include="Content\js\vendor\jquery-1.10.2.min.js" />

@@ -623,7 +623,7 @@ ul.navbar-nav > .active > a {
     padding-top: 80px!important;
 }
 
-.portfolio-wrap {
+/*.portfolio-wrap {
     position: relative;
     display: block;
     width: 100%;
@@ -632,7 +632,7 @@ ul.navbar-nav > .active > a {
     transition: height 450ms ease-out 0s;
     -webkit-transition: height 450ms ease-out 0s;
     -o-transition: height 450ms ease-out 0s;
-}
+}*/
 
 .single-portfolio {
     display: block;
