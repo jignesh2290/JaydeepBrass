@@ -302,6 +302,16 @@ Back To Top Button
           }, 800);
           return false;
       });
+
+      // scroll body to 0px on click
+      $('#company-title').click(function () {
+          if ($(window).scrollTop() > 50) {
+              $('body,html').animate({
+                  scrollTop: 0
+              }, 800);
+          }
+          return false;
+      });
       
       $('#back-top').tooltip('hide');
 
