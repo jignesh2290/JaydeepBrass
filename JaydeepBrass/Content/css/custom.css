@@ -382,7 +382,7 @@ ul.navbar-nav > .active > a{
     transition-delay:.3s;
     -moz-transition-delay:.3s;
     -o-transition-delay:.3s;
-    margin: 40px 0px;
+    margin: 60px 0px;
     text-transform: uppercase;
 }
 .carousel-caption img{
@@ -1104,7 +1104,6 @@ padding: 8px 15px;
 }
 .overlay-hover img{
     width: 100%!important;
-    height: 240px!important;
 }
 .overlay-effect ul.social{
     bottom:5%;
@@ -2612,7 +2611,7 @@ iframe{
     content: "";
     position: absolute;
     width: 2px;
-    height: 110px;
+    height: 190px;
     background: #EE3B24;
     left: 10px;
     top: -10px;
@@ -2622,8 +2621,18 @@ iframe{
     content: "";
     position: absolute;
     width: 2px;
-    height: 110px;
+    height: 190px;
     background: #EE3B24;
     right: 10px;
     top: -10px;
 }
+
+/*
+    My styles
+*/
+
+.companyName {
+    color: #00A3E8 !important;
+    margin-left: -70px;
+}
+
