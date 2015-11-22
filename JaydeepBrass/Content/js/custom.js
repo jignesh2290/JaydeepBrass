@@ -216,28 +216,29 @@ jQuery(function ($) {
         owl.trigger('owl.stop');
     })
 
-    function generateCarouselItems(carouselName, tag, numImages) {
+    function generateCarouselItems(carouselName, tag, numImages, items) {
         var finalStr;
         var currentCarousel = $("#" + carouselName + "-carousel");
-        var currentStr = "<div class='item client_logo'><a href='#'><img src='/Content/images/portfolio/" + carouselName + "/";
+        var currentStr = "<div class='item client_logo'><a href='#'><img class='owl-lazy' data-src='/Content/images/portfolio/" + carouselName + "/";
 
         for (var i = 1; i <= numImages; i++) {
             finalStr = currentStr + tag + i + ".jpg' class='img-responsive'></a></div>";
             $(finalStr).appendTo(currentCarousel);
         }
 
-        initCarousel(currentCarousel);
+        initCarousel(currentCarousel, items || 5);
     }
 
-    function initCarousel(currentCarousel) {
+    function initCarousel(currentCarousel, items) {
         currentCarousel.owlCarousel({
             nav: true,
-            slideSpeed: 3000,
-            items: 5,
+            slideSpeed: 2000,
+            items: items,
             autoWidth: true,
             stopOnHover: true,
             autoplay: true,
-            loop: true
+            loop: true,
+            lazyLoad: true
         });
     }
 
@@ -245,7 +246,7 @@ jQuery(function ($) {
     generateCarouselItems('electronics', 'elec', 23);
     generateCarouselItems('electrical', 'electrical', 32);
     generateCarouselItems('nutbolts', 'nut', 24);
-    generateCarouselItems('pipeing', 'pipe', 3);
+    generateCarouselItems('pipeing', 'pipe', 3, 2);
     generateCarouselItems('gas', 'gas', 6);
     generateCarouselItems('moulding', 'mould', 11);
     generateCarouselItems('auto', 'auto', 25);
