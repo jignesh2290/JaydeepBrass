@@ -27,7 +27,7 @@
     <link rel="stylesheet" href="/Content/css/animate.css" />
     <!-- Owl Carousel -->
     <link rel="stylesheet" href="/Content/css/owl.carousel.css" />
-    <link rel="stylesheet" href="/Content/css/owl.theme.css" />
+    <link rel="stylesheet" href="/Content/css/owl.theme.default.min.css" />
 
     <link href="~/Content/css/ninja-slider.css" rel="stylesheet" />
     <!-- Pretty Photo -->
@@ -149,7 +149,7 @@
                 <div class="col-md-12 col-sm-12 col-xs-12">
                     <div class="feature_header text-center">
                         <h3 class="feature_title">Our <b>Services</b></h3>
-                        <h4 class="feature_sub">We create value. <br>Continuosly shipping precision quality components on time, everytime!</h4>
+                        <h4 class="feature_sub">We create value. <br>Continuosly delivering precision quality components on time, everytime!</h4>
                         <div class="divider"></div>
                     </div>
                 </div>  <!-- Col-md-12 End -->
@@ -207,91 +207,37 @@
         </div>
 
         <div id="isotope-filter" class="skew3 text-center">
-            <a data-filter="all" href="#" class="">All</a>
-            <a data-filter="brassparts" href="#" class="">General Brass parts</a>
+            <a data-filter="general" href="#" class="">General Brass parts</a>
             <a data-filter="electronics" href="#" class="">Electronics parts</a>
+            <a data-filter="electrical" href="#" class="">Electrical parts</a>
             <a data-filter="nutbolts" href="#" class="">Nut Bolts and Grub screws</a>
             <a data-filter="pipeing" href="#" class="">Piping solution parts</a>
             <a data-filter="gas" href="#" class="">Gas parts</a>
             <a data-filter="moulding" href="#" class="">Moulding Inserts</a>
-
+            <a data-filter="auto" href="#" class="">Auto Parts</a>
         </div>
         <div class="clearfix"></div>
 
-        <div class="container">
+        <div class="container container-full">
             <div class="row wow fadeInLeft">
-                <div id="client-carousel" class="col-sm-12 owl-carousel owl-theme text-center client-carousel">
-                    <div class="item client_logo brassparts ">
-                        <a href="#">
-                            <img src="/Content/images/clients/client1.png" alt="client" class="img-responsive">
-                        </a>
-                    </div>
-                    <div class="item client_logo brassparts">
-                        <a href="#">
-                            <img src="/Content/images/clients/client2.png" alt="client" class="img-responsive">
-                        </a>
-                    </div>
-                    <div class="item client_logo brassparts">
-                        <a href="#">
-                            <img src="/Content/images/clients/client3.png" alt="client" class="img-responsive">
-                        </a>
-                    </div>
-                    <div class="item client_logo brassparts">
-                        <a href="#">
-                            <img src="/Content/images/clients/client4.png" alt="client" class="img-responsive">
-                        </a>
-                    </div>
-                    <div class="item client_logo all">
-                        <a href="#">
-                            <img src="/Content/images/clients/client3.png" alt="client" class="img-responsive">
-                        </a>
-                    </div>
-                    <div class="item client_logo all">
-                        <a href="#">
-                            <img src="/Content/images/clients/client4.png" alt="client" class="img-responsive">
-                        </a>
-                    </div>
-                    <div class="item client_logo all">
-                        <a href="#">
-                            <img src="/Content/images/clients/client5.png" alt="client" class="img-responsive">
-                        </a>
-                    </div>
-                    <div class="item client_logo gas">
-                        <a href="#">
-                            <img src="/Content/images/clients/client6.png" alt="client" class="img-responsive">
-                        </a>
-                    </div>
-                    <div class="item client_logo gas">
-                        <a href="#">
-                            <img src="/Content/images/clients/client7.png" alt="client" class="img-responsive">
-                        </a>
-                    </div>
-                    <div class="item client_logo gas">
-                        <a href="#">
-                            <img src="/Content/images/clients/client8.png" alt="client" class="img-responsive">
-                        </a>
-                    </div>
-                    <div class="item client_logo gas">
-                        <a href="#">
-                            <img src="/Content/images/clients/client4.png" alt="client" class="img-responsive">
-                        </a>
-                    </div>
-                    <div class="item client_logo gas">
-                        <a href="#">
-                            <img src="/Content/images/clients/client5.png" alt="client" class="img-responsive">
-                        </a>
-                    </div>
-                </div><!-- Owl carousel end -->
-            </div><!-- Main row end -->
+                <div id="general-carousel" class="col-sm-12 owl-carousel owl-theme text-center client-carousel">
+                </div>
+                <div id="electronics-carousel" class="col-sm-12 owl-carousel owl-theme text-center client-carousel">
+                </div>
+                <div id="electrical-carousel" class="col-sm-12 owl-carousel owl-theme text-center client-carousel">
+                </div>
+                <div id="nutbolts-carousel" class="col-sm-12 owl-carousel owl-theme text-center client-carousel">
+                </div>
+                <div id="pipeing-carousel" class="col-sm-12 owl-carousel owl-theme text-center client-carousel">
+                </div>
+                <div id="gas-carousel" class="col-sm-12 owl-carousel owl-theme text-center client-carousel">
+                </div>
+                <div id="moulding-carousel" class="col-sm-12 owl-carousel owl-theme text-center client-carousel">
+                </div>
+                <div id="auto-carousel" class="col-sm-12 owl-carousel owl-theme text-center client-carousel">
+                </div>
+            </div>
         </div>
-
-
-
-
-
-
-
-
     </section>  <!-- Portfolio Section End -->
     <div class="clearfix"></div>
     <!-- About us start -->
@@ -641,42 +587,6 @@
             },
             icon: "/Content/images/map1.png"
         });
-
-        jQuery(function ($) {
-            var $filter = $('#isotope-filter');
-
-            $filter.find('a').click(function () {
-
-
-                var selector = $(this).attr('data-filter');
-                $('#client-carousel div.client_logo').css('display', 'none');
-
-
-                if (selector == 'brassparts') {
-                    $('#client-carousel div.brassparts').css('display', 'block');
-                }
-                if (selector == 'electronics') {
-                    $('#client-carousel div.electronics').css('display', 'block');
-                }
-                if (selector == 'nutbolts') {
-                    $('#client-carousel div.nutbolts').css('display', 'block');
-                }
-                if (selector == 'pipeing') {
-                    $('#client-carousel div.pipeing').css('display', 'block');
-                }
-                if (selector == 'gas') {
-                    $('#client-carousel div.gas').css('display', 'block');
-                }
-                if (selector == 'moulding') {
-                    $('#client-carousel div.moulding').css('display', 'block');
-                }
-
-                if (selector == 'all') {
-                    $('#client-carousel div.all').css('display', 'block');
-                }
-            });
-        });
     </script>
-
 </body>
 </html>

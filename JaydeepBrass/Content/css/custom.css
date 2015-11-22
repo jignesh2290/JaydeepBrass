@@ -730,7 +730,7 @@ padding: 8px 15px;
     width:24.95%;
 }
 #isotope-filter{
-    margin-bottom:40px;
+    /*margin-bottom:40px;*/
 }
 #isotope-filter a{
     font-size:14px;
@@ -1154,8 +1154,11 @@ padding: 8px 15px;
 #team  .owl-theme .owl-controls .owl-buttons{
     padding: 0px;
 }
-.owl-carousel {
-    display: block!important;
+
+#owl-demo .item img{
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
  #team .owl-theme .owl-controls .owl-buttons .owl-prev {
@@ -1566,10 +1569,7 @@ padding: 8px 15px;
 #client h3.feature_title {
     color: #fff !important;
 }
-.client-carousel .owl-controls {
-    margin: 70px 0px;
-    display: none !important;
-}
+
 .owl-theme .owl-controls .owl-buttons .owl-next,.owl-theme .owl-controls .owl-buttons .owl-prev {
     font-size: 25px;
     padding-left: 7px;
@@ -1578,12 +1578,10 @@ padding: 8px 15px;
 .owl-theme .owl-controls .owl-buttons .owl-prev {
     padding-left: 0px!important;
 }
-.client_logo{ 
-    padding: 30px 40px;
-}
+
 .client_logo img{ 
-   width: 150px;
-    height: 50px;
+   width: 400px !important;
+   height: 300px;
 }
 
 /*Location
@@ -2640,4 +2638,16 @@ iframe{
     width: 80px;
     height: 50px;
     margin-top:10px
+}
+
+.show {
+    display: block !important;
+}
+
+.hide {
+    display: none !important;
+}
+
+.container-full {
+    width: 100% !important;
 }
