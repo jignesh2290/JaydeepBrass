@@ -1067,6 +1067,7 @@ padding: 8px 15px;
     font-size: 18px;
     line-height: 20px;
     font-weight: 700;
+    text-transform: capitalize !important;
 }
 .single-member h5 {
     font-size: 18px;

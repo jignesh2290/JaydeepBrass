@@ -88,11 +88,14 @@
                 <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
                 <li data-target="#carousel-example-generic" data-slide-to="1"></li>
                 <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="5"></li>
             </ol>
             <div class="carousel-inner">
                 <div class="item active">
                     <div class="overlay-slide">
-                        <img src="/Content/images/banner/b1_1.jpg" alt="" class="img-responsive">
+                        <img src="/Content/images/banner/Image1.jpg" alt="" class="img-responsive">
                     </div>
                     <div class="carousel-caption">
                         <div class="col-md-12 col-xs-12 text-center">
@@ -105,7 +108,20 @@
                 </div>
                 <div class="item">
                     <div class="overlay-slide">
-                        <img src="/Content/images/banner/b2.jpg" alt="" class="img-responsive">
+                        <img src="/Content/images/banner/Image11.jpg" alt="" class="img-responsive">
+                    </div>
+                    <div class="carousel-caption">
+                        <div class="col-md-12 col-xs-12 text-center">
+                            <h2>Jaydeep Brass Industries</h2>
+                            <h3 class="animated2"> <b>Precise</b> Modern and clean </h3>
+                            <div class="line"></div>
+                            <p class="animated3">Unique precision engineering</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="overlay-slide">
+                        <img src="/Content/images/banner/Image5.jpg" alt="" class="img-responsive">
                     </div>
                     <div class="carousel-caption">
                         <div class="col-md-12 col-xs-12 text-center">
@@ -118,7 +134,33 @@
                 </div>
                 <div class="item">
                     <div class="overlay-slide">
-                        <img src="/Content/images/banner/b3.jpg" alt="" class="img-responsive">
+                        <img src="/Content/images/banner/Image55.jpg" alt="" class="img-responsive">
+                    </div>
+                    <div class="carousel-caption">
+                        <div class="col-md-12 col-xs-12 text-center">
+                            <h2>Jaydeep Brass Industries</h2>
+                            <h3 class="animated3"><b>Quality </b>components</h3>
+                            <div class="line"></div>
+                            <p class="animated2">best choice for you</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="overlay-slide">
+                        <img src="/Content/images/banner/Image6.jpg" alt="" class="img-responsive">
+                    </div>
+                    <div class="carousel-caption">
+                        <div class="col-md-12 col-xs-12 text-center">
+                            <h2>Jaydeep Brass Industries</h2>
+                            <h3 class="animated3"> We're crazy <b>Manufacturers</b></h3>
+                            <div class="line"></div>
+                            <p class="animated2"> way to success</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="overlay-slide">
+                        <img src="/Content/images/banner/Image66.jpg" alt="" class="img-responsive">
                     </div>
                     <div class="carousel-caption">
                         <div class="col-md-12 col-xs-12 text-center">
@@ -334,10 +376,10 @@
                                     <div class="c-tab">
                                         <h4>Our Specialization</h4>
                                         <p>
-                                            Precision Turned & Machined Brass and Moulding Components.
+                                            We're in the industry for the last <b>30 Years</b>. Trust our expertise in <b>Electrical and all other parts</b>.
                                         </p>
                                         <p>
-                                            Expertise in Brass,Other Piping solution parts and Gas parts.
+                                            Precision Turned & Machined Brass and Moulding Components.
                                         </p>
                                         <br>
                                     </div>
@@ -561,8 +603,6 @@
     <script type="text/javascript" src="/Content/js/wow.min.js"></script>
     <!-- Google Map  Source -->
     <script type="text/javascript" src="/Content/js/gmaps.js"></script>
-
-    <script src="~/Content/js/ninja-slider.js"></script>
     <!-- Custom js -->
     <script src="/Content/js/custom.js"></script>
     <script>
@@ -571,21 +611,26 @@
         var map;
         map = new GMaps({
             div: '#map',
-            lat: 22.461823,
-            lng: 70.066661,
+            lat: 22.45818,
+            lng: 70.05253,
             scrollwheel: false,
             panControl: false,
             zoomControl: false,
         });
 
+        var icon = {
+            url: "/Content/images/map1.png",
+            scaledSize: new google.maps.Size(75, 75),
+        };
+
         map.addMarker({
-            lat: 22.461823,
-            lng: 70.066661,
+            lat: 22.45818,
+            lng: 70.05253,
             title: 'Smilebuddy',
             infoWindow: {
                 content: '<p> Near SBS, Shankar Tekri, Udyog Nagar</p>'
             },
-            icon: "/Content/images/map1.png"
+            icon: icon
         });
     </script>
 </body>

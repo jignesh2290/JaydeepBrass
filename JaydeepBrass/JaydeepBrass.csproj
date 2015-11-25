@@ -166,6 +166,12 @@
     <Content Include="Content\images\banner\b2.jpg" />
     <Content Include="Content\images\banner\b22.jpg" />
     <Content Include="Content\images\banner\b3.jpg" />
+    <Content Include="Content\images\banner\Image1.jpg" />
+    <Content Include="Content\images\banner\Image11.jpg" />
+    <Content Include="Content\images\banner\Image5.jpg" />
+    <Content Include="Content\images\banner\Image55.jpg" />
+    <Content Include="Content\images\banner\Image6.jpg" />
+    <Content Include="Content\images\banner\Image66.jpg" />
     <Content Include="Content\images\banner\l5.png" />
     <Content Include="Content\images\banner\overaly.png" />
     <Content Include="Content\images\banner\v-overlay.png" />
