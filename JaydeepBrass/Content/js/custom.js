@@ -322,4 +322,18 @@ jQuery(function ($) {
     });
 
     $('#back-top').tooltip('hide');
+
+
+    $("#sendMail").click(function () {
+        $.ajax({
+            type: "POST",
+            url: '/Home/SendMessage',
+            dataType: "Json",
+            data: { "name": $('#name').val(), "email": $("#mail").val(), "phone": $("#phone").val(), "message": $("#message").val() },
+            success: function (data) {
+                console.log(data);
+            },
+            error: console.log("Mail sending failed"),
+        });
+    });
 });
