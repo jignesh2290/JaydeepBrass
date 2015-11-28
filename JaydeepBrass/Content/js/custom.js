@@ -250,7 +250,7 @@ jQuery(function ($) {
                     autoplay: true,
                 },
                 768: {
-                    items: 5,
+                    items: items,
                     nav: true,
                     lazyLoad: true,
                     autoplay: true,
@@ -263,7 +263,7 @@ jQuery(function ($) {
     generateCarouselItems('electronics', 'elec', 23);
     generateCarouselItems('electrical', 'electrical', 32);
     generateCarouselItems('nutbolts', 'nut', 24);
-    generateCarouselItems('pipeing', 'pipe', 3, 2);
+    generateCarouselItems('pipeing', 'pipe', 3, 3);
     generateCarouselItems('gas', 'gas', 6);
     generateCarouselItems('moulding', 'mould', 11);
     generateCarouselItems('auto', 'auto', 25);
