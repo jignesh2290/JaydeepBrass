@@ -328,12 +328,13 @@ jQuery(function ($) {
         $.ajax({
             type: "POST",
             url: '/Home/SendMessage',
-            dataType: "Json",
             data: { "name": $('#name').val(), "email": $("#mail").val(), "phone": $("#phone").val(), "message": $("#message").val() },
-            success: function (data) {
-                console.log(data);
+            success: function () {
+                alert("Enquiry sent successfully!");
             },
-            error: console.log("Mail sending failed"),
+            error: function(data) {
+                alert("Error occured in sending enquiry. Please contact +91-9898405154 directly!");
+            },
         });
     });
 });
