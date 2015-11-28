@@ -241,6 +241,7 @@ jQuery(function ($) {
                     nav: true,
                     lazyLoad: true,
                     autoplay: true,
+                    autowidth: true
                 },
                 480: {
                     items: 3,
@@ -269,7 +270,7 @@ jQuery(function ($) {
 
     //Portfolio Carousels
     $('.client-carousel').hide();
-    $('#general-carousel').show();
+    $('#electrical-carousel').show();
 
     $filter.find('a').click(function () {
         var selector = $(this).attr('data-filter');
