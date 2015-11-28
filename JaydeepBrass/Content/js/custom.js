@@ -38,14 +38,11 @@ jQuery(function ($) {
     });
 
     $.noConflict();
-    $('.nav a').on('click', function () {
+    $('.topNav a').on('click', function () {
         if ($('.navbar-toggle').css('display') != 'none') {
             $(".navbar-toggle").trigger("click");
         }
     });
-
-
-
 
     // accordian
     $('.accordion-toggle').on('click', function () {
@@ -80,7 +77,7 @@ jQuery(function ($) {
 
     $('#slider_part').carousel({
         pause: true,
-        interval: 100000,
+        interval: 1000000,
     });
 
     /* ----------------------------------------------------------- */
@@ -167,24 +164,23 @@ jQuery(function ($) {
     /* ----------------------------------------------------------- */
 
     $("#owl-demo").owlCarousel({
-        navigation: true, // Show next and prev buttons
-        // navigationText: ["prev","next"], 
-        navigationText: [
-           "<i class='fa fa-angle-left'></i>",
-           "<i class='fa fa-angle-right'></i>"
-        ],
-        slideSpeed: 300,
-        paginationSpeed: 400,
-        autoPlay: true,
-        items: 4,
-        itemsDesktop: [1199, 4],
-        itemsDesktopSmall: [979, 3],  //As above.
-        itemsTablet: [768, 3],    //As above.
-        // itemsTablet:[640,2],   
-        itemsMobile: [479, 1],    //As above
-        goToFirst: true,    //Slide to first item if autoPlay reach end
-        goToFirstSpeed: 1000,
-        dots: false
+        items: 2,
+        dots: false,
+        responsiveClass: true,
+        responsive: {
+            0: {
+                items: 1,
+                dots: true,
+                autoplay: true,
+                loop: true
+            },
+            480: {
+                items: 2                
+            },
+            768: {
+                items: 2
+            }
+        }
     });
 
     //Testimonial
@@ -234,11 +230,31 @@ jQuery(function ($) {
             nav: true,
             slideSpeed: 2000,
             items: items,
-            autoWidth: true,
             stopOnHover: true,
             autoplay: true,
             loop: true,
-            lazyLoad: true
+            lazyLoad: true,
+            responsiveClass: true,
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: true,
+                    lazyLoad: true,
+                    autoplay: true,
+                },
+                480: {
+                    items: 3,
+                    nav: true,
+                    lazyLoad: true,
+                    autoplay: true,
+                },
+                768: {
+                    items: 5,
+                    nav: true,
+                    lazyLoad: true,
+                    autoplay: true,
+                }
+            }
         });
     }
 

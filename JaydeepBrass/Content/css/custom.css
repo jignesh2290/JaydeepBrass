@@ -1057,10 +1057,10 @@ padding: 8px 15px;
     height: auto;
     font-weight: 700;
     margin-bottom: 30px;
-    width: 270px;
     border-radius: 7px;
     padding-bottom: 25px;
-    margin: 0 10px;
+    margin: 0 15%;
+    width: 75%;
 }
 
 .item .single-member h3 {
@@ -1580,10 +1580,10 @@ padding: 8px 15px;
     padding-left: 0px!important;
 }
 
-.client_logo img{ 
+/*.client_logo img{ 
    width: 400px !important;
    height: 300px;
-}
+}*/
 
 /*Location
 ============================*/
@@ -2600,7 +2600,7 @@ iframe{
 .carousel-caption h2{
     color:#fff;
     border-top: 1px solid#fff;
-    border-bottom: 1px solid#fff;
+    border-bottom: 2px solid#fff;
     width: 50%;
     margin: 0 auto;
     line-height: 85px;
@@ -2630,15 +2630,25 @@ iframe{
     My styles
 */
 
-.companyName {
-    color: #00A3E8 !important;
-    margin-left: -70px;
-}
+ .companyName {
+    margin: 27px;
+    font-weight: 700;
+    font-size: 14px;
+    display: inline-block;
+    text-transform: uppercase;
+    color: #800000 !important;
+ }
+
+ .companyName a {
+          color: #800000 !important;
+ }
 
 .companyLogo {
     width: 80px;
     height: 50px;
-    margin-top:10px
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block !important;
 }
 
 .show {

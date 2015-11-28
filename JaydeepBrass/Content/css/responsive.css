@@ -22,8 +22,20 @@
 
 }
 
+@media (max-width: 768px) and (min-width: 768px) {
+  .carousel-indicators {
+    	bottom: 31% !important;
+    }
+  .carousel-caption h2:before {
+      height: 130px !important;
+    }
+  .carousel-caption h2:after {
+      height: 130px !important;
+    }
+}
+
 /* Small Devices, Tablets */
-@media (min-width : 768px) and (max-width: 991px) {
+@media (min-width : 768px) and (max-width: 1025px) {
 	
 	.navbar-header{
 		width: 20%;
@@ -67,10 +79,15 @@
     	height: 100%;
 	}
 	.carousel-indicators {
-    	bottom: 15%;
+    	bottom: 47%;
+        width: 20%;
+        left: 39%;
 	}
 	.carousel-control.right {
     	right: 32px;
+	}
+    .slides-control .carousel-control {
+        top: 30% !important;
 	}
 
 	/*ABout us*/
@@ -132,7 +149,26 @@
 		margin-top: 105px;
 	}
 
+    .companyLogo {
+        width: 50px;
+        height: 30px;
+        margin-left: 10px;
+        margin-top: 15px;
+        display: inline-block !important;
+    }
 
+    .companyName {
+        display: none !important;
+        position: absolute;
+        top: 25px;
+        left: 120px;
+        margin: 12px;
+        font-weight: 700;
+        font-size: 14px;
+        display: inline-block;
+        text-transform: uppercase;
+        color: #800000 !important;
+    }
 }
 
 /* Small Devices Potrait */
@@ -149,25 +185,25 @@
 	.carousel-caption h2{
     	font-size: 16px;
 		line-height: 34px;
-		width: 70%;
+        width: 70%;
 	}
 	.carousel-caption h2:after{
-	    content: "";
-	    position: absolute;
-	    width: 2px;
-	    height: 55px;
-	    background: #EE3B24;
-	    left: 5px;
-	    top: -10px;
+        content: "";
+        position: absolute;
+        width: 2px;
+	    height: 132%;
+        background: #EE3B24;
+        right: 5px;
+        top: -7px;
 	}
 	.carousel-caption h2:before{
 	    content: "";
-	    position: absolute;
-	    width: 2px;
-	    height: 55px;
-	    background: #EE3B24;
-	    right: 5px;
-	    top: -10px;
+        position: absolute;
+        width: 2px;
+        height: 132%;
+        background: #EE3B24;
+        right: 5px;
+        top: -7px;
 	}
 	/*main Slider*/
 	#slider_part {
@@ -186,15 +222,15 @@
 	    margin-top: 20px;
 	}
 	.carousel-indicators li {
-	    width: 15px !important;
-	    height: 15px !important;
+	    width: 10px !important;
+	    height: 10px !important;
 	}
 	.carousel-indicators {
     	width: 25%;
 	}
 	.carousel-indicators {
 	    left: 37%;
-	    bottom: 9%;
+        bottom: 51%;
 	}
 	
 	.slides-control .carousel-control i {
@@ -205,6 +241,10 @@
 	}
 	.carousel-control.right {
     	right: 30px;
+	}
+
+    .slides-control .carousel-control {
+        top: 26% !important;
 	}
 	
 	/*header*/
@@ -318,5 +358,28 @@
     	right: 12px;
 	}
 
+    .companyLogo {
+        width: 40px;
+        height: 25px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+        display: inline-block !important;
+    }
+
+    .companyName {
+        margin: 16px;
+        font-weight: 700;
+        font-size: 12px;
+        display: inline-block;
+        text-transform: uppercase;
+        color: #800000 !important;
+    }
+
+    #isotope-filter a {
+        font-size: 12px;
+        font-weight: 400;
+        text-transform: capitalize;
+        line-height: 40px;
+    }
 }
 	
