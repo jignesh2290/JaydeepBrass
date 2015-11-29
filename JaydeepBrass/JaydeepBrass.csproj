@@ -395,7 +395,6 @@
     <Content Include="Content\scripts\master.js" />
     <Content Include="Content\scripts\mohindra.js" />
     <Content Include="Content\scripts\responsiveslides.min.js" />
-    <Content Include="Content\videos\gdrive.mp4" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\bootstrap.js" />
@@ -405,8 +404,6 @@
     <Content Include="Content\fonts\fontawesome-webfont.ttf" />
     <Content Include="Content\fonts\fontawesome-webfont.woff" />
     <Content Include="Content\fonts\FontAwesome.otf" />
-    <Content Include="Content\videos\gdrive.ogg" />
-    <Content Include="Content\videos\gdrive.webm" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.woff" />
