@@ -420,7 +420,6 @@
     <Content Include="Content\scripts\master.js" />
     <Content Include="Content\scripts\mohindra.js" />
     <Content Include="Content\scripts\responsiveslides.min.js" />
-    <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
