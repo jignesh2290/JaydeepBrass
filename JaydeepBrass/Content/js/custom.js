@@ -215,10 +215,10 @@ jQuery(function ($) {
     function generateCarouselItems(carouselName, tag, numImages, items) {
         var finalStr;
         var currentCarousel = $("#" + carouselName + "-carousel");
-        var currentStr = "<div class='item client_logo'><a href='#'><img class='owl-lazy' data-src='/Content/images/portfolio/" + carouselName + "/";
+        var currentStr = "<div class='item client_logo'><img class='owl-lazy' data-src='/Content/images/portfolio/" + carouselName + "/";
 
         for (var i = 1; i <= numImages; i++) {
-            finalStr = currentStr + tag + i + ".jpg' class='img-responsive'></a></div>";
+            finalStr = currentStr + tag + i + ".jpg' class='img-responsive'></div>";
             $(finalStr).appendTo(currentCarousel);
         }
 
