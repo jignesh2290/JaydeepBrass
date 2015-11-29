@@ -393,12 +393,9 @@
     }
 
     .main-tab-list > li.active {
-        background: #EE3B24!important;
+        background: #FFFFFF!important;
         position: relative;
-    }
-
-    .main-tab-list > li.active p{
-        color: #FFE9E6;
+        text-align: left;
     }
 
     .tab-pane {
