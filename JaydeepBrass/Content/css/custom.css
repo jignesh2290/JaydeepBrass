@@ -1087,6 +1087,15 @@ padding: 8px 15px;
     transition: top 0.35s ease 0s;
     top: 0px;
 }
+
+.overlay-hover:active .overlay-effect{
+    opacity:1;
+   -webkit-transition: top 0.35s ease 0s;
+    -o-transition: top 0.35s ease 0s;
+    transition: top 0.35s ease 0s;
+    top: 0px;
+}
+
 .overlay-hover {
     position: relative;
     overflow:hidden;

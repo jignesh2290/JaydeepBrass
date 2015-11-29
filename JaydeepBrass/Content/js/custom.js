@@ -259,7 +259,7 @@ jQuery(function ($) {
         });
     }
 
-    generateCarouselItems('general', 'gen', 17);
+    generateCarouselItems('general', 'gen', 16);
     generateCarouselItems('electronics', 'elec', 23);
     generateCarouselItems('electrical', 'electrical', 32);
     generateCarouselItems('nutbolts', 'nut', 24);
@@ -279,6 +279,29 @@ jQuery(function ($) {
         $('#' + selector + '-carousel .owl-controls .owl-prev').trigger('click');
     });
 
+    $('.overlay-hover').bind("touchend", function () {
+        if ($(this).find('.overlay-effect').css('opacity') == "1" && $(this).find('.overlay-effect').css('display') == "block") {
+            $(this).find('.overlay-effect').fadeOut(300);
+        } else {
+            $(this).find('.overlay-effect').fadeIn(200);
+        }
+    });
+
+    $('.tab-pane-mobile').hide();
+    $('#specialization.tab-pane-mobile').show();
+    $('a[role="tab"]').click(function () {
+        $('.tab-pane-mobile').hide('fast');
+        if ($(this).attr('href') == "#quality") {
+            $('#quality.tab-pane-mobile').show();
+        }
+        else if ($(this).attr('href') == "#vision") {
+            $('#vision.tab-pane-mobile').show();
+        }
+        else if ($(this).attr('href') == "#specialization") {
+            $('#specialization.tab-pane-mobile').show();
+        }
+    });
+  
     //Counter 
     // jQuery(document).ready(function( $ ) {
     $('.counter').counterUp({

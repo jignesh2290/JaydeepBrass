@@ -381,5 +381,28 @@
         text-transform: capitalize;
         line-height: 40px;
     }
+
+    .main-tab-list li {
+        padding: 10px 0px 10px;
+        border: 1px solid#eee;
+        width: 100%;
+        /* background: #FBFBFB; */
+        float: none;
+        margin-bottom: 5px;
+        border-radius: 5px;
+    }
+
+    .main-tab-list > li.active {
+        background: #EE3B24!important;
+        position: relative;
+    }
+
+    .main-tab-list > li.active p{
+        color: #FFE9E6;
+    }
+
+    .tab-pane {
+        text-align: left;
+    }
 }
 	
