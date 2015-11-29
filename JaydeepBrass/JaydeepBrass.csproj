@@ -154,18 +154,10 @@
     <Content Include="Content\css\responsive.css" />
     <Content Include="Content\css\style.css" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="Content\images\about\clients_bckgrnd.jpg" />
-    <Content Include="Content\images\about\CoreValues.jpg" />
     <Content Include="Content\images\about\quality.jpg" />
     <Content Include="Content\images\about\specialization.jpg" />
     <Content Include="Content\images\about\Vision.jpg" />
     <Content Include="Content\images\back-top.png" />
-    <Content Include="Content\images\banner\b1.jpg" />
-    <Content Include="Content\images\banner\b11.jpg" />
-    <Content Include="Content\images\banner\b1_1.jpg" />
-    <Content Include="Content\images\banner\b2.jpg" />
-    <Content Include="Content\images\banner\b22.jpg" />
-    <Content Include="Content\images\banner\b3.jpg" />
     <Content Include="Content\images\banner\Image1.jpg" />
     <Content Include="Content\images\banner\Image11.jpg" />
     <Content Include="Content\images\banner\Image5.jpg" />
@@ -287,7 +279,6 @@
     <Content Include="Content\images\portfolio\general\gen14.jpg" />
     <Content Include="Content\images\portfolio\general\gen15.jpg" />
     <Content Include="Content\images\portfolio\general\gen16.jpg" />
-    <Content Include="Content\images\portfolio\general\gen17.jpg" />
     <Content Include="Content\images\portfolio\general\gen2.jpg" />
     <Content Include="Content\images\portfolio\general\gen3.jpg" />
     <Content Include="Content\images\portfolio\general\gen4.jpg" />
